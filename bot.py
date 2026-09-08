@@ -25,9 +25,6 @@ from telegram.ext import (
 
 logging.basicConfig(level=logging.INFO)
 
-# ============================================================
-#  HIER ANPASSEN — deine persönlichen Daten
-# ============================================================
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "DEIN_BOT_TOKEN_HIER")
 
